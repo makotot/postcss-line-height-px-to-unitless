@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makotot/postcss-line-height-px-to-unitle.git"
+    "url": "git+https://github.com/makotot/postcss-line-height-px-to-unitless.git"
   },
   "author": "makotot",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/makotot/postcss-line-height-px-to-unitle/issues"
+    "url": "https://github.com/makotot/postcss-line-height-px-to-unitless/issues"
   },
-  "homepage": "https://github.com/makotot/postcss-line-height-px-to-unitle#readme",
+  "homepage": "https://github.com/makotot/postcss-line-height-px-to-unitless#readme",
   "keywords": [
     "postcss",
     "postcss-plugin",
