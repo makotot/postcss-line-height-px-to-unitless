@@ -13,8 +13,8 @@
 // before
 
 a {
-  font-size: 32px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 
@@ -22,8 +22,8 @@ a {
 // after
 
 a {
-  font-size: 32px;
-  line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 ```

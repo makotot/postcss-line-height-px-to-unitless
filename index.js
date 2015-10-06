@@ -14,7 +14,7 @@ function convertUnitlessLineHeight (value, fontSize) {
 
   if (isPx(fontSize)) {
     result = toUnitless(fontSize);
-    result = (result / value);
+    result = (value / result);
     result = Math.round(result * 100) / 100;
   }
 
