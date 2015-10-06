@@ -1,0 +1,21 @@
+body  {
+  margin: 0;
+  background-color: #fff;
+  font-size: 100%;
+  line-height: 1;
+}
+
+
+.foo  {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.bar  {
+  line-height: 18px;
+}
+
+.baz  {
+  font-size: 32px;
+  line-height: 17px;
+}
