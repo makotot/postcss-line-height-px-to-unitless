@@ -1,3 +1,6 @@
+## 0.1.0
+* Fix bug : incorrect output
+
 ## 0.0.2
 * + CHANGELOG
 

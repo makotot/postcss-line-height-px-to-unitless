@@ -1,6 +1,6 @@
 {
   "name": "postcss-line-height-px-to-unitless",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "postcss plugin to convert a line-height value with px to a unitless value",
   "main": "index.js",
   "scripts": {
