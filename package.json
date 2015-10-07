@@ -23,6 +23,7 @@
     "line-height"
   ],
   "devDependencies": {
+    "autoprefixer": "^6.0.3",
     "chai": "^3.3.0",
     "eslint-config-makotot": "0.0.2",
     "gulp": "^3.9.0",
