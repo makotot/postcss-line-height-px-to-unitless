@@ -23,10 +23,12 @@ function convertUnitlessLineHeight (value, fontSize) {
 
 
 module.exports = postcss.plugin('postcss-line-height-px-to-unitless', function (opts) {
+  var options = opts || {};
+
   var lineHeightProp = 'line-height',
     fontSizeProp = 'font-size';
 
-  return function (css, result) {
+  return function (css) {
 
     css.walkRules(function (rule) {
       var fontSize;
@@ -35,22 +37,19 @@ module.exports = postcss.plugin('postcss-line-height-px-to-unitless', function (
         fontSize = decl.value;
       });
 
-      rule.walkDecls(lineHeightProp, function (decl) {
+      if (fontSize) {
+        rule.walkDecls(lineHeightProp, function (decl) {
+          if (isPx(decl.value)) {
+            var value = toUnitless(decl.value);
 
-        if (fontSize && isPx(decl.value)) {
-          var value = toUnitless(decl.value);
+            decl.value = '' + convertUnitlessLineHeight(value, fontSize);
+          }
 
-          decl.cloneAfter({
-            prop: lineHeightProp,
-            value: convertUnitlessLineHeight(value, fontSize)
-          });
-
-          decl.remove();
-        }
-
-      });
+        });
+      }
     });
 
   };
 
 });
+

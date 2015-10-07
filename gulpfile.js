@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
   postcss = require('gulp-postcss'),
-  lineHeightToUnitless = require('./index'),
+  lineHeightToUnitless = require('./'),
   eslint = require('gulp-eslint');
 
 
@@ -18,7 +18,8 @@ gulp.task('css', function () {
   return gulp
     .src('./fixture/src/fixture.css')
     .pipe(postcss([
-      lineHeightToUnitless()
+      lineHeightToUnitless(),
+      require('autoprefixer')()
     ]))
     .pipe(gulp.dest('./fixture/dist'));
 });
