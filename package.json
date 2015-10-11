@@ -4,7 +4,8 @@
   "description": "postcss plugin to convert a line-height value with px to a unitless value",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test.js"
+    "test": "./node_modules/.bin/mocha ./test.js",
+    "bump": "./node_modules/.bin/release-it"
   },
   "repository": {
     "type": "git",
@@ -25,13 +26,14 @@
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "chai": "^3.3.0",
-    "eslint-config-makotot": "0.0.2",
+    "eslint-config-makotot": "0.0.3",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.0.0",
     "gulp-postcss": "^6.0.1",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "release-it": "^2.3.1"
   },
   "dependencies": {
-    "postcss": "^5.0.8"
+    "postcss": "^5.0.9"
   }
 }

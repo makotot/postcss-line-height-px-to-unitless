@@ -1,7 +1,7 @@
 # postcss-line-height-px-to-unitless
 
-[![npm version](http://img.shields.io/npm/v/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://github.com/makotot/postcss-line-height-px-to-unitless)
-[![travis](http://img.shields.io/travis/makotot/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://github.com/makotot/postcss-line-height-px-to-unitless)
+[![npm version](http://img.shields.io/npm/v/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://www.npmjs.com/package/postcss-line-height-px-to-unitless)
+[![travis](http://img.shields.io/travis/makotot/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://travis-ci.org/makotot/postcss-line-height-px-to-unitless)
 [![dependencies](http://img.shields.io/david/makotot/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://github.com/makotot/postcss-line-height-px-to-unitless)
 [![devDependencies](http://img.shields.io/david/dev/makotot/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://github.com/makotot/postcss-line-height-px-to-unitless)
 [![License](http://img.shields.io/npm/l/postcss-line-height-px-to-unitless.svg?style=flat-square)](https://github.com/makotot/postcss-line-height-px-to-unitless)
